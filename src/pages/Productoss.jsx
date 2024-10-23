@@ -13,7 +13,7 @@ const Productoss = () => {
                     <nav>
                         <Link to='bolsas'>Bolsas</Link>
                         <Link to='envases'>Envses</Link>
-                        <Link to='toallitas-Desechables'>Toallas desechables</Link>
+                        <Link to='toallitas-desechables'>Toallas desechables</Link>
                     </nav>
                 </aside>
                 <div>

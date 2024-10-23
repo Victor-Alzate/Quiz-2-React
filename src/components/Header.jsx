@@ -3,12 +3,17 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header>
-        <Link className="enlace" to="/contactenos">Contactenos</Link>
-        <Link to="/productosBiodegradables">Productos Biodegradables</Link>
-        <Link className="enlace" to="/Productos">Productos</Link>
+    <header className="header">
+      <nav>
+        <ul className="nav-links">
+          <li><Link to="/productos">Productos</Link></li>
+          <li><Link to="/productos-biodegradables">Biodegradables</Link></li>
+          <li><Link to="/contactenos">Contáctenos</Link></li>
+        </ul>
+      </nav>
     </header>
   )
 }
 
 export default Header
+

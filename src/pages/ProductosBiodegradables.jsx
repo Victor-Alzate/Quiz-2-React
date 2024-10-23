@@ -10,7 +10,7 @@ const ProductosBiodegradables = () => {
     <section className='panel-control'>
         <aside>
             <nav>
-                <Link to='tipos-De-Productos'>Tipos de productos</Link>
+                <Link to='tipos-de-productos'>Tipos de productos</Link>
             </nav>
         </aside>
         <div>
