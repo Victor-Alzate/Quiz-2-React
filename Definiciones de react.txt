@@ -1,0 +1,25 @@
+Definiciones de react
+
+-SPA:
+Una Single Page Application (SPA) es un tipo de aplicación web que carga una única página HTML inicialmente y utiliza JavaScript para actualizar el contenido según las interacciones del usuario, sin necesidad de recargar toda la página. A diferencia de las aplicaciones web tradicionales, que cargan una nueva página cada vez que se navega a otra sección, las SPAs solo recargan las partes necesarias. Esto da como resultado una experiencia de usuario más rápida, similar a la de una aplicación de escritorio, ya que reduce el tiempo de espera al minimizar la comunicación con el servidor.
+
+-NODE:
+Node (o Node.js) es un entorno de ejecución de JavaScript del lado del servidor, construido sobre el motor V8 de Chrome. Permite ejecutar JavaScript fuera del navegador, lo cual es ideal para desarrollar aplicaciones escalables y de alta concurrencia, como servicios web o aplicaciones de tiempo real. Node utiliza un modelo de entrada y salida no bloqueante, orientado a eventos, lo que lo hace rápido y eficiente en el manejo de múltiples conexiones simultáneas.
+
+-NPM:
+NPM (Node Package Manager) es el gestor de paquetes predeterminado para Node.js. Permite instalar, compartir y gestionar bibliotecas y dependencias de JavaScript que se pueden usar en proyectos de Node. Además, facilita la instalación de herramientas y módulos de terceros, automatizando la administración de versiones y actualizaciones en los proyectos. NPM se ejecuta a través de la línea de comandos y es esencial para el desarrollo con Node.js, ya que permite reutilizar código y mantener el proyecto organizado y actualizado.
+
+-VUE:
+Vue (o Vue.js) es un framework progresivo de JavaScript para construir interfaces de usuario. Se centra en la capa de vista y es utilizado para crear aplicaciones web interactivas, ya que facilita el desarrollo de interfaces reactivas. Vue es flexible y se puede integrar de forma incremental en proyectos ya existentes. Además, proporciona una estructura organizada para trabajar con componentes, lo que permite dividir una aplicación en partes reutilizables y manejables, mejorando la eficiencia y mantenibilidad del código.
+
+-PROPS:
+En frameworks de JavaScript como React y Vue, props (abreviación de "properties") son datos que se pasan de un componente padre a un componente hijo para que este los use. Las props permiten que los componentes compartan información de forma unidireccional, es decir, el padre puede enviar datos al hijo, pero el hijo no puede modificarlos directamente. Esto ayuda a mantener una estructura de datos predecible y facilita el control y organización de la información en aplicaciones de componentes.
+
+-HOOKS:
+En React, hooks son funciones que permiten usar características como el estado y el ciclo de vida en componentes funcionales, los cuales originalmente no tenían acceso a estas capacidades (solo los componentes de clase podían usarlas). Los hooks más comunes son useState, para manejar el estado en un componente, y useEffect, para ejecutar efectos secundarios como llamadas a APIs. Los hooks hacen que el código sea más limpio, reutilizable y permiten gestionar el estado y el comportamiento de los componentes de manera flexible.
+
+-USESTATE:
+useState es un hook en React que permite agregar y gestionar un estado en componentes funcionales. Se utiliza para declarar una variable de estado y una función que puede actualizar su valor. Este hook toma el valor inicial del estado como argumento y devuelve un array con dos elementos: el estado actual y la función para actualizarlo. useState es útil para manejar valores que cambian con las interacciones del usuario, como entradas de formularios o valores de contadores, y permite que el componente se re-renderice automáticamente cuando el estado cambia.
+
+-USEEFFECT:
+useEffect es un hook en React que permite manejar efectos secundarios en componentes funcionales, como hacer solicitudes a APIs, actualizar el DOM, o suscribirse a eventos. Este hook recibe dos argumentos: una función de efecto (que realiza el efecto secundario) y un array de dependencias que determina cuándo debe ejecutarse el efecto. Si el array de dependencias está vacío, useEffect se ejecuta solo una vez, al montar el componente. Cuando las dependencias cambian, el efecto se vuelve a ejecutar, manteniendo el componente actualizado según esas dependencias.

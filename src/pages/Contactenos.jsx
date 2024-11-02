@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import './Contactenos.css'; // Agregamos estilos si es necesario
+import Header from '../components/Header'
+
 
 const Contactenos = () => {
   const [formData, setFormData] = useState({
@@ -73,7 +75,10 @@ const Contactenos = () => {
   };
 
   return (
+    <div>
+        <Header />
     <div className="contact-container">
+    
       <h2>Contáctenos</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
@@ -113,6 +118,7 @@ const Contactenos = () => {
 
         <button type="submit" className="btn-submit">Enviar</button>
       </form>
+    </div>
     </div>
   );
 };

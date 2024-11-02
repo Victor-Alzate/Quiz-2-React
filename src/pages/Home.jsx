@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'; // Archivo CSS para personalizar
+import Header from '../components/Header'
 
 const Home = () => {
   return (
     <div className="home-container">
+       <Header />
       <h1>Bienvenido a nuestro portal de productos biodegradables</h1>
       <p>Facilitamos el comercio al por mayor de productos amigables con el medio ambiente.</p>
       
